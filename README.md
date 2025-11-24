@@ -10,7 +10,7 @@ FlashFinder is a tool to enumerate memory of a processor for a common flash inte
 
 To run the tool simply: 
 
-python3 FlashFinder.py [start_address] [end_address] [flash_size] [width]
+>>>python3 FlashFinder.py [start_address] [end_address] [flash_size] [width]
 
 Example: python3 FlashFinder.py 0x0 0xffffffff 0x40000 long
 
