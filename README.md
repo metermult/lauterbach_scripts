@@ -9,9 +9,9 @@ There are possibilities that the following scripts WILL PERMANENTLY brick your s
 FlashFinder is a tool to enumerate memory of a processor for a common flash interface (CFI) bus. It will walk across memory from 0x0 (or specified start address) to end address using the provided minimum flash size. This tool is especially useful for processors that have a changable memory map or multiple memory regions. Flash must be CFI compliant for this tool to work. Flash attributes such as size and addresses must be in hex. 
 
 To run the tool simply: 
-
->>>python3 FlashFinder.py [start_address] [end_address] [flash_size] [width]
-
+```
+python3 FlashFinder.py [start_address] [end_address] [flash_size] [width]
+```
 Example: python3 FlashFinder.py 0x0 0xffffffff 0x40000 long
 
 The last parameter can be byte, long, word, dword, or qword. 
